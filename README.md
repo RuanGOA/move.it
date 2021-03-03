@@ -12,10 +12,11 @@ In this project Next.js was used, taking advantage of the concepts of SSR (Serve
 
 ## Install
 
-For instalation, use the command:
-> next build
+It is necessary to hav yarn installed.
 
-It is also possible to use the **yarn build**, because it already uses the **next build**.
+For instalation, use the command:
+> yarn add next
+> yarn build
 
 ## Run
 
