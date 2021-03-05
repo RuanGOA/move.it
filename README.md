@@ -6,8 +6,9 @@ This project was done during RocketSeat's NextLevelWeek 4. Its goal is to encour
 
 In this project Next.js was used, taking advantage of the concepts of SSR (Server Side Rendering) and SSG (Static Side Generation), provided by Next and React.
 
-![Home](public/home.png)
 ![Login](public/login.png)
+![Home](public/home.png)
+![HomeWithChallenge](public/homeWithChallenge.png)
 ![Modal](public/modal.png)
 
 ## Install
