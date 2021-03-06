@@ -1,13 +1,14 @@
-.experienceBar {
+.header {
   display: flex;
   align-items: center;
+  margin-top: 0;
 }
 
-.experienceBar span {
+.header span {
   font-size: 1rem;
 }
 
-.experienceBar > div {
+.header > div {
   flex: 1;
   height: 4px;
   border-radius: 4px;
@@ -16,14 +17,21 @@
   position: relative;
 }
 
-.experienceBar > div > div {
+.header > div > div {
   height: 4px;
   border-radius: 4px;
   background: var(--green);
 }
 
-span.currentExperience {
+span.header {
   position: absolute;
   top: 12px;
   transform: translatex(-50%);
+}
+
+.buttonHome {
+  width: 5rem;
+  margin-right: 2rem;
+  margin-top: 0;
+  fill: var(--white) !important;
 }
