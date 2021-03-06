@@ -17,7 +17,6 @@ It is necessary to hav yarn installed.
 
 For instalation, use the command:
 > yarn install  
-> yarn dev
 
 ## Run
 
