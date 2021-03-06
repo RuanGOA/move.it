@@ -2,7 +2,7 @@ import Head from 'next/head';
 
 import { CompletedChallenges } from "../components/CompletedChallenges";
 import { Countdown } from "../components/Countdown";
-import { ExperienceBar } from "../components/ExperienceBar";
+import { Header } from "../components/Header";
 import { Profile } from '../components/Profile';
 import { ChallengeBox } from "../components/ChallengeBox";
 
@@ -30,7 +30,7 @@ export default function Home(props: HomeProps) {
         <Head>
           <title>move.it</title>
         </Head>
-        <ExperienceBar />
+        <Header />
         <CountdownProvider>
           <section>
             <div>
