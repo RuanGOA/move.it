@@ -5,12 +5,6 @@
   align-items: center;
 }
 
-.title {
-  background-size: cover;
-  text-align: center;
-  margin-bottom: 1rem;
-}
-
 .input {
   font-size: 1.2rem;
   color: var(--white);
@@ -27,20 +21,20 @@
   display: block;
   font-size:1rem;
   transition: box-shadow 0.8s;
-  border-color: #4CD62B;
+  border-color: var(--green);
   background: var(--gray-line);
 }
 
 .inputBox:focus {
-  border-color: #4CD62B;
-  box-shadow: 0 0 6rem #4CD62B;
+  border-color: var(--green);
+  box-shadow: 0 0 6rem var(--green);
   outline: none;
   background: var(--white);
 }
 
 .inputButton {
   display: block;
-  background-color: #4CD62B;
+  background-color: var(--green);
   width: 7rem;
   border-radius: 5px;
 
