@@ -16,8 +16,8 @@ In this project Next.js was used, taking advantage of the concepts of SSR (Serve
 It is necessary to hav yarn installed.
 
 For instalation, use the command:
-> yarn add next  
-> yarn build
+> yarn install  
+> yarn dev
 
 ## Run
 
